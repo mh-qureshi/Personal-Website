@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Projects = () => {
+const project = () => {
 return (
 	<div
 	style={{
@@ -15,4 +15,4 @@ return (
 );
 };
 
-export default Projects;
+export default project;
