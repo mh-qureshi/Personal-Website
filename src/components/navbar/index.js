@@ -18,16 +18,16 @@ return (
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
-		<NavLink to='/events' activeStyle>
+		<NavLink to='/Projects' activeStyle>
 			Projects
 		</NavLink>
-		<NavLink to='/annual' activeStyle>
+		<NavLink to='/services' activeStyle>
 			Services
 		</NavLink>
 		<NavLink to='/blogs' activeStyle>
 			Blogs
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
+		<NavLink to='/contact' activeStyle>
 			Contact
 		</NavLink>
 		{/* Second Nav */}
