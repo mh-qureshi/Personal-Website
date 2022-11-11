@@ -10,7 +10,7 @@ return (
 		height: '100vh'
 	}}
 	>
-	<h1>This Website is currently under development. Please check back later.</h1>
+	<h1>This Website is currently under development</h1>
 	</div>
 );
 };
