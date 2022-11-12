@@ -3,14 +3,23 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background: #63D471;
-height: 85px;
-display: flex;
-justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
-z-index: 12;
-/* Third Nav */
-/* justify-content: flex-start; */
+background: transparent;
+  border: 0;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 2rem 1.5rem 1.2rem 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transition: opacity 250ms;
+  cursor: pointer;
+  /* position above the dropdown, otherwise the dropdown will cover up the bottom sliver of the buttons */
+  position: relative;
+  z-index: 2;
+  &:hover, &:focus {
+    opacity: 0.7;
+    outline:none;
 `;
 
 export const NavLink = styled(Link)`
