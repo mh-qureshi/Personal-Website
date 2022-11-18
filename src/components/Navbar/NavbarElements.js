@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
 background: transparent;
-  border: 1;
+  border: 3;
   font-weight: bold;
   font-family: inherit;
   font-size: 18px;
